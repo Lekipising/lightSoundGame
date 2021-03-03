@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **Michelle Cheng**
+Submitted by: **Liplan Lekipising**
 
-Time spent: **5** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Functionality
 

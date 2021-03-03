@@ -3,14 +3,29 @@
 body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
-    background-color: slategrey;
+    background-color: #192841;
     color: white; 
 }
   
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-style: oblique;
+  color: white;
   font-family: verdana, arial, sans-serif; 
+}
+
+.hidden {
+  display: none;
+}
+
+#startBtn, #stopBtn {
+  align-items: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+#startBtn:hover, #stopBtn:hover {
+  background-color: black;
+  color: white;
 }
 
 button {
@@ -18,15 +33,13 @@ button {
   border-radius: 10px;
 }
 
+
 #gameButtonArea > button {
   width:200px;
   height:200px;
-  margin:2px;
+  margin:15px;
 }
 
-.hidden {
-  display: none;
-}
 
 #button1 {
   background: lightgreen;
@@ -45,33 +58,42 @@ button {
 }
 
 #button1:active{
-  background:green;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn1.jpg?v=1614810235799");
 }
 
 #button1.lit {
-  background:green;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn1.jpg?v=1614810235799");
 }
 
 #button2:active{
-  background:blue;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn2.jpg?v=1614810236803");
 }
 
 #button2.lit {
-  background: blue;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn2.jpg?v=1614810236803");
 }
 
 #button3:active{
-  background:red;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn3.jpg?v=1614810245340");
 }
 
 #button3.lit {
-  background: red;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn3.jpg?v=1614810245340");
 }
 
 #button4:active{
-  background:yellow;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn4.jpg?v=1614810246188");
 }
 
 #button4.lit {
-  background: yellow;
+  background: url("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn4.jpg?v=1614810246188");
+}
+ 
+#try {
+  /* width: 100px; */
+  display: flex;
+  float: right;
+  margin-right: 80px;
+  font-size: 30px;
+
 }
