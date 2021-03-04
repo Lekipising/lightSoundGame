@@ -8,6 +8,7 @@ body {
 }
   
 h1 {
+  padding: 0px;
   font-style: oblique;
   color: white;
   font-family: verdana, arial, sans-serif; 
@@ -28,6 +29,18 @@ h1 {
   color: white;
 }
 
+#winpic {
+  align-items: center;
+  width: 418px;
+  font-size: 188px;
+}
+
+#losepic {
+  align-items: center;
+  width: 426px;
+  font-size: 192px;
+}
+
 button {
   padding: 10px;
   border-radius: 10px;
@@ -35,11 +48,10 @@ button {
 
 
 #gameButtonArea > button {
-  width:200px;
-  height:200px;
+  width:180px;
+  height:180px;
   margin:15px;
 }
-
 
 #button1 {
   background: lightgreen;
@@ -90,10 +102,19 @@ button {
 }
  
 #try {
-  /* width: 100px; */
   display: flex;
   float: right;
   margin-right: 80px;
   font-size: 30px;
-
 }
+
+#tick {
+  font-size: 30px;
+  margin-left: 400px;
+}
+
+#tick_info {
+  font-size: 30px;
+  margin-left: 380px;
+}
+

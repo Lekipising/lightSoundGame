@@ -1,7 +1,7 @@
 // global constants
 const clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
-const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
+const nextClueWaitTime = 666; //how long to wait before starting playback of the clue sequence
 const audioAp = new Audio("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fapplause.wav?v=1614810190071");
 const audioLo = new Audio("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Ffailed.wav?v=1614810225351");
 const btn1s = new Audio("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2Fbtn1.mp3?v=1614810205518");
@@ -13,15 +13,14 @@ const btn4s = new Audio ("https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11d
 var pattern = [2, 3, 3, 1, 4, 4, 2, 3];
 var progress = 0;
 var gamePlaying = false;
-var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
 var tries = 3;
+
 
 
 function showTries(tr){
   document.getElementById("try").innerHTML="Tries left : " + tr;
 }
-
 
 function startGame(){
     //initialize game variables
@@ -119,10 +118,11 @@ function guess(btn){
       tries -= 1;
       loseGame();
     }
+
 }
 
 // Sound Synthesis Functions
-const freqMap = {
+const sounds = {
   1: btn1s,
   2: btn2s,
   3: btn3s,
@@ -130,7 +130,5 @@ const freqMap = {
 }
 
 function playTone(btn){
-  freqMap[btn].play();
+  sounds[btn].play();
 }
-
-
