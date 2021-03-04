@@ -22,13 +22,9 @@ The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -49,16 +45,26 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+ * w3 school tutorials, Stack Overflow, Visual Studio Code.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+* Putting everything together was hard. I had to make sure that any change I made didn't affect the other code, html, css, js.  
+* It was challenging to keep time for working on the submission since I have other engagements. I overcame this by doing the submission in parts. 
+* It was challenging to debug JavaScript since I didn't have much experience on it. Adding a new feature neeed me to be careful and ensured it worked perfectly. I overcome this through keeping track of my changes and using console log to debug.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+* How to link a website to a database and be able to perform actions such as view records, update records, and delete records. 
+* How to create a dynamic website with a backend and integrate them to work seamlessly.
+* The best practices for designing a website with multiple pages. How to create designs before even writing the code. 
+* How to secure a website through hiding some aspects from the user.
+* How to ensure that the website is responsive across different devices.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+* I would develop the game to be even more interactive by adding levels. Users progress by completing the sequences. Increase difficulty per level.
+* Adding musical notes such that when the user is pressing the buttons, it emulates a real piano.
+* Add a leaderboard feature where users can include their names before playing the game. The game will record their score and record in a live leaderboard. This will make the game fun.
+* Develop a mobile version so that users can play the game on their phones.
+* I would the feature so that the users can hear the musical notes, all eight, after the game.
 
 
 
