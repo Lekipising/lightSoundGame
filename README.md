@@ -34,6 +34,9 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app!
 
+## Demonstration
+![Alt Text](https://cdn.glitch.com/40cb417e-7307-40a8-a7a4-99ff11deb908%2FrecordingGame.gif?v=1614863828347)
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
